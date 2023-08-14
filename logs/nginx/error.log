@@ -1,0 +1,2 @@
+2023/08/10 21:36:03 [alert] 11204#16004: OpenEvent("ngx_master_9572") failed (2: The system cannot find the file specified)
+2023/08/12 00:36:01 [alert] 13304#3844: OpenEvent("ngx_master_4960") failed (2: The system cannot find the file specified)

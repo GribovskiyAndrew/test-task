@@ -1,0 +1,371 @@
+[11-Aug-2023 12:19:01 UTC] WordPress database error Table 'local.wp_additional_table' doesn't exist for query SHOW FULL COLUMNS FROM `wp_additional_table` made by get_default_post_to_edit, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_data_to_additional_table
+[11-Aug-2023 12:20:28 UTC] WordPress database error Table 'local.wp_additional_table' doesn't exist for query SHOW FULL COLUMNS FROM `wp_additional_table` made by get_default_post_to_edit, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_data_to_additional_table
+[11-Aug-2023 12:21:16 UTC] WordPress database error Table 'local.wp_additional_table' doesn't exist for query SHOW FULL COLUMNS FROM `wp_additional_table` made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_data_to_additional_table
+[11-Aug-2023 12:25:06 UTC] WordPress database error Table 'local.wp_additional_table' doesn't exist for query SHOW FULL COLUMNS FROM `wp_additional_table` made by get_default_post_to_edit, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_data_to_additional_table
+[11-Aug-2023 12:25:36 UTC] WordPress database error Table 'local.wp_additional_table' doesn't exist for query SHOW FULL COLUMNS FROM `wp_additional_table` made by do_action('wp_ajax_heartbeat'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_heartbeat, apply_filters('heartbeat_received'), WP_Hook->apply_filters, heartbeat_autosave, wp_autosave, edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_data_to_additional_table
+[11-Aug-2023 12:25:49 UTC] WordPress database error Table 'local.wp_additional_table' doesn't exist for query SHOW FULL COLUMNS FROM `wp_additional_table` made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_data_to_additional_table
+[11-Aug-2023 12:32:56 UTC] PHP Warning:  Undefined property: wpdb::$get_charset_collate in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\class-wpdb.php on line 789
+[11-Aug-2023 12:32:56 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6 for query CREATE TABLE wp_additional_table (
+        id INT NOT NULL AUTO_INCREMENT,
+        column1 VARCHAR(255),
+        column2 TEXT,
+        PRIMARY KEY (id)
+    ) () made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_data_to_additional_table, dbDelta
+[11-Aug-2023 12:32:56 UTC] WordPress database error Table 'local.wp_additional_table' doesn't exist for query SHOW FULL COLUMNS FROM `wp_additional_table` made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_data_to_additional_table
+[11-Aug-2023 20:53:19 UTC] WordPress database error Column 'tour_name' cannot be null for query INSERT INTO `wp_additional_table` (`tour_id`, `tour_name`, `tour_category`, `tour_dates`) VALUES ('34', NULL, NULL, NULL) made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, ACF_Form_Post->save_post, acf_save_post, do_action('acf/save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_data_to_additional_table
+[11-Aug-2023 20:53:51 UTC] WordPress database error Column 'tour_name' cannot be null for query INSERT INTO `wp_additional_table` (`tour_id`, `tour_name`, `tour_category`, `tour_dates`) VALUES ('34', NULL, NULL, NULL) made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, ACF_Form_Post->save_post, acf_save_post, do_action('acf/save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_data_to_additional_table
+[11-Aug-2023 20:54:43 UTC] WordPress database error Column 'tour_name' cannot be null for query INSERT INTO `wp_additional_table` (`tour_id`, `tour_name`, `tour_category`, `tour_dates`) VALUES ('34', NULL, NULL, NULL) made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, ACF_Form_Post->save_post, acf_save_post, do_action('acf/save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_data_to_additional_table
+[11-Aug-2023 20:55:05 UTC] WordPress database error Column 'tour_name' cannot be null for query INSERT INTO `wp_additional_table` (`tour_id`, `tour_name`, `tour_category`, `tour_dates`) VALUES ('34', NULL, NULL, NULL) made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, ACF_Form_Post->save_post, acf_save_post, do_action('acf/save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_data_to_additional_table
+[11-Aug-2023 20:56:49 UTC] WordPress database error Column 'tour_name' cannot be null for query INSERT INTO `wp_additional_table` (`tour_id`, `tour_name`, `tour_category`, `tour_dates`) VALUES ('34', NULL, NULL, NULL) made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, ACF_Form_Post->save_post, acf_save_post, do_action('acf/save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_data_to_additional_table
+[11-Aug-2023 21:00:09 UTC] tour
+[11-Aug-2023 21:00:09 UTC] WordPress database error Column 'tour_name' cannot be null for query INSERT INTO `wp_additional_table` (`tour_id`, `tour_name`, `tour_category`, `tour_dates`) VALUES ('34', NULL, NULL, NULL) made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, ACF_Form_Post->save_post, acf_save_post, do_action('acf/save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_data_to_additional_table
+[11-Aug-2023 21:05:45 UTC] tour
+[12-Aug-2023 16:32:06 UTC] WordPress database error Unknown column 'tour_date' in 'where clause' for query SELECT * FROM wp_additional_table
+    WHERE tour_category = 'carpathians'
+    AND tour_date >= '2023-08-12 16:32:06'
+    ORDER BY tour_date ASC made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/twentytwentyone/taxonomy-tour-category.php')
+[12-Aug-2023 16:32:24 UTC] WordPress database error Unknown column 'tour_date' in 'where clause' for query SELECT * FROM wp_additional_table
+    WHERE tour_category = 'carpathians'
+    AND tour_date >= '2023-08-12 16:32:24'
+    ORDER BY tour_date ASC made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/twentytwentyone/taxonomy-tour-category.php')
+[13-Aug-2023 11:44:52 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php:12
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#3 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 12
+[13-Aug-2023 11:45:50 UTC] WordPress database error Unknown column 'tour_date' in 'where clause' for query SELECT * FROM wp_additional_table
+    WHERE tour_category = 'carpathians'
+    AND tour_date >= '2023-08-13 11:45:50'
+    ORDER BY tour_date ASC made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/twentytwentyone/taxonomy-tour-category.php')
+[13-Aug-2023 11:54:02 UTC] WordPress database error Unknown column 'carpathians' in 'where clause' for query SELECT * FROM wp_additional_table
+    WHERE tour_category = carpathians
+    AND tour_date >= CURDATE()
+    ORDER BY tour_date ASC made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/twentytwentyone/taxonomy-tour-category.php')
+[13-Aug-2023 11:54:31 UTC] WordPress database error Unknown column 'carpathians' in 'where clause' for query SELECT * FROM wp_additional_table
+    WHERE tour_category = carpathians
+    made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/twentytwentyone/taxonomy-tour-category.php')
+[13-Aug-2023 11:55:02 UTC] WordPress database error Unknown column 'carpathians' in 'where clause' for query SELECT * FROM wp_additional_table
+    WHERE tour_category = carpathians
+    made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/twentytwentyone/taxonomy-tour-category.php')
+[13-Aug-2023 11:57:44 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php:19
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#3 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 19
+[13-Aug-2023 11:58:03 UTC] WordPress database error Unknown column 't.category' in 'where clause' for query 
+    SELECT t.* 
+    FROM wp_additional_table AS t
+    WHERE t.category = 8
+    AND t.date >= CURDATE()
+    ORDER BY t.date ASC
+ made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/twentytwentyone/taxonomy-tour-category.php')
+[13-Aug-2023 11:58:36 UTC] WordPress database error Unknown column 't.category' in 'where clause' for query 
+    SELECT t.* 
+    FROM wp_additional_table AS t
+    WHERE t.category = carpathians
+    AND t.date >= CURDATE()
+    ORDER BY t.date ASC
+ made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/twentytwentyone/taxonomy-tour-category.php')
+[13-Aug-2023 12:07:14 UTC] WordPress database error Unknown column 't.category' in 'where clause' for query 
+    SELECT t.* 
+    FROM wp_additional_table AS t
+    WHERE t.category = kyiv
+    AND t.date >= CURDATE()
+    ORDER BY t.date ASC
+ made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/twentytwentyone/taxonomy-tour-category.php')
+[13-Aug-2023 12:07:42 UTC] WordPress database error Unknown column 't.category' in 'where clause' for query 
+    SELECT t.* 
+    FROM wp_additional_table AS t
+    WHERE t.category = 7
+    AND t.date >= CURDATE()
+    ORDER BY t.date ASC
+ made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/twentytwentyone/taxonomy-tour-category.php')
+[13-Aug-2023 12:13:57 UTC] WordPress database error Unknown column 't.tour_date' in 'where clause' for query 
+    SELECT t.* 
+    FROM wp_additional_table AS t
+    WHERE t.tour_category = 7
+    AND t.tour_date >= CURDATE()
+    ORDER BY t.tour_dates ASC
+ made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/twentytwentyone/taxonomy-tour-category.php')
+[13-Aug-2023 12:15:23 UTC] WordPress database error Unknown column 't.tour_date' in 'where clause' for query 
+    SELECT t.* 
+    FROM local.wp_additional_table AS t
+    WHERE t.tour_category = 7
+    AND t.tour_date >= CURDATE()
+    ORDER BY t.tour_dates ASC
+ made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/twentytwentyone/taxonomy-tour-category.php')
+[13-Aug-2023 12:15:26 UTC] WordPress database error Unknown column 't.tour_date' in 'where clause' for query 
+    SELECT t.* 
+    FROM local.wp_additional_table AS t
+    WHERE t.tour_category = 7
+    AND t.tour_date >= CURDATE()
+    ORDER BY t.tour_dates ASC
+ made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/twentytwentyone/taxonomy-tour-category.php')
+[13-Aug-2023 12:50:02 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\tours_plugin\tours_plugin.php:47
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\class-wp-hook.php(310): save_data_to_additional_table(35)
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-form-functions.php(143): do_action('acf/save_post', 35)
+#4 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\advanced-custom-fields\includes\forms\form-post.php(329): acf_save_post(35)
+#5 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\class-wp-hook.php(312): ACF_Form_Post->save_post(35, Object(WP_Post))
+#6 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\post.php(4751): do_action('save_post', 35, Object(WP_Post), true)
+#9 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\post.php(4853): wp_insert_post(Array, false, true)
+#10 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-admin\includes\post.php(445): wp_update_post(Array)
+#11 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-admin\post.php(227): edit_post()
+#12 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\tours_plugin\tours_plugin.php on line 47
+[13-Aug-2023 21:28:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_result() on string in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\tours_plugin\tours_plugin.php:45
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\class-wp-hook.php(310): save_data_to_additional_table(46)
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\advanced-custom-fields-pro\includes\acf-form-functions.php(143): do_action('acf/save_post', 46)
+#4 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\advanced-custom-fields-pro\includes\forms\form-post.php(329): acf_save_post(46)
+#5 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\class-wp-hook.php(312): ACF_Form_Post->save_post(46, Object(WP_Post))
+#6 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\post.php(4751): do_action('save_post', 46, Object(WP_Post), true)
+#9 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\post.php(4853): wp_insert_post(Array, false, true)
+#10 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-admin\includes\post.php(445): wp_update_post(Array)
+#11 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-admin\post.php(227): edit_post()
+#12 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\tours_plugin\tours_plugin.php on line 45
+[13-Aug-2023 21:35:32 UTC] PHP Warning:  Attempt to read property "num_rows" on array in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\tours_plugin\tours_plugin.php on line 67
+[13-Aug-2023 21:35:38 UTC] PHP Warning:  Attempt to read property "num_rows" on array in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\tours_plugin\tours_plugin.php on line 67
+[13-Aug-2023 21:41:59 UTC] PHP Warning:  Attempt to read property "num_rows" on array in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\tours_plugin\tours_plugin.php on line 67
+[13-Aug-2023 21:45:02 UTC] PHP Warning:  Attempt to read property "num_rows" on array in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\tours_plugin\tours_plugin.php on line 60
+[13-Aug-2023 21:45:02 UTC] 
+[13-Aug-2023 21:45:02 UTC] PHP Warning:  Attempt to read property "num_rows" on array in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\tours_plugin\tours_plugin.php on line 62
+[13-Aug-2023 21:47:42 UTC] PHP Warning:  Attempt to read property "num_rows" on array in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\tours_plugin\tours_plugin.php on line 60
+[13-Aug-2023 21:47:42 UTC] 
+[13-Aug-2023 21:57:06 UTC] PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #1 ($datetime) must be of type string, array given in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php:28
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(28): strtotime(Array)
+#1 [internal function]: compareDates(Array, Array)
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(31): usort(Array, 'compareDates')
+#3 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lifebo...')
+#4 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#5 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#6 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 28
+[13-Aug-2023 21:57:48 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 27
+[13-Aug-2023 21:57:48 UTC] PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #1 ($datetime) must be of type string, array given in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php:30
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(30): strtotime(Array)
+#1 [internal function]: compareDates(Array, Array)
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(33): usort(Array, 'compareDates')
+#3 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lifebo...')
+#4 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#5 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#6 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 30
+[13-Aug-2023 21:58:11 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\formatting.php on line 1104
+[13-Aug-2023 21:58:11 UTC] PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #1 ($datetime) must be of type string, array given in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php:30
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(30): strtotime(Array)
+#1 [internal function]: compareDates(Array, Array)
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(33): usort(Array, 'compareDates')
+#3 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lifebo...')
+#4 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#5 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#6 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 30
+[13-Aug-2023 21:58:14 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\formatting.php on line 1104
+[13-Aug-2023 21:58:14 UTC] PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #1 ($datetime) must be of type string, array given in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php:30
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(30): strtotime(Array)
+#1 [internal function]: compareDates(Array, Array)
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(33): usort(Array, 'compareDates')
+#3 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lifebo...')
+#4 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#5 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#6 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 30
+[13-Aug-2023 21:58:31 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 27
+[13-Aug-2023 21:58:31 UTC] PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #1 ($datetime) must be of type string, array given in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php:30
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(30): strtotime(Array)
+#1 [internal function]: compareDates(Array, Array)
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(33): usort(Array, 'compareDates')
+#3 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lifebo...')
+#4 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#5 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#6 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 30
+[13-Aug-2023 21:59:59 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 28
+[13-Aug-2023 21:59:59 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 28
+[13-Aug-2023 21:59:59 UTC] PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #1 ($datetime) must be of type string, array given in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php:32
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(32): strtotime(Array)
+#1 [internal function]: compareDates(Array, Array)
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(35): usort(Array, 'compareDates')
+#3 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lifebo...')
+#4 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#5 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#6 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 32
+[13-Aug-2023 22:00:59 UTC] PHP Warning:  Attempt to read property "date_value" on array in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 27
+[13-Aug-2023 22:00:59 UTC] PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #1 ($datetime) must be of type string, array given in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php:30
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(30): strtotime(Array)
+#1 [internal function]: compareDates(Array, Array)
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(33): usort(Array, 'compareDates')
+#3 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lifebo...')
+#4 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#5 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#6 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 30
+[13-Aug-2023 22:04:18 UTC] PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #1 ($datetime) must be of type string, array given in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php:30
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(30): strtotime(Array)
+#1 [internal function]: compareDates(Array, Array)
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(33): usort(Array, 'compareDates')
+#3 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lifebo...')
+#4 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#5 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#6 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 30
+[13-Aug-2023 22:05:31 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\formatting.php on line 1104
+[13-Aug-2023 22:07:03 UTC] PHP Fatal error:  Uncaught TypeError: sort(): Argument #2 ($flags) must be of type int, string given in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php:33
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(33): sort(Array, 'compareDates')
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lifebo...')
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#3 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#4 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 33
+[13-Aug-2023 22:11:46 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php:33
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(33): usort(NULL, 'compareDates')
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lifebo...')
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#3 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#4 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 33
+[13-Aug-2023 22:17:03 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php:37
+Stack trace:
+#0 [internal function]: compareDates('23/08/2023', '30/08/2023')
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(40): usort(Array, 'compareDates')
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lifebo...')
+#3 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#4 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#5 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 37
+[13-Aug-2023 22:19:19 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php:46
+Stack trace:
+#0 [internal function]: compareDates('23/08/2023', '30/08/2023')
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(49): usort(Array, 'compareDates')
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lifebo...')
+#3 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#4 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#5 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 46
+[13-Aug-2023 22:25:21 UTC] PHP Warning:  Attempt to read property "num_rows" on array in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\tours_plugin\tours_plugin.php on line 60
+[13-Aug-2023 22:25:21 UTC] 
+[14-Aug-2023 06:44:14 UTC] PHP Fatal error:  Uncaught Exception: Failed to parse time string (31/08/2023) at position 0 (3): Unexpected character in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php:40
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php(40): DateTime->__construct('31/08/2023')
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lifebo...')
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#3 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#4 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 40
+[14-Aug-2023 06:47:42 UTC] PHP Parse error:  syntax error, unexpected token "else" in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 58
+[14-Aug-2023 06:47:44 UTC] PHP Parse error:  syntax error, unexpected token "else" in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 58
+[14-Aug-2023 06:48:46 UTC] PHP Warning:  Undefined variable $your_tour_list in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 48
+[14-Aug-2023 06:48:46 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 48
+[14-Aug-2023 08:17:48 UTC] PHP Warning:  Attempt to read property "num_rows" on array in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\tours_plugin\tours_plugin.php on line 60
+[14-Aug-2023 08:17:48 UTC] 
+[14-Aug-2023 08:18:47 UTC] PHP Warning:  Attempt to read property "num_rows" on array in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\tours_plugin\tours_plugin.php on line 60
+[14-Aug-2023 08:18:47 UTC] 
+[14-Aug-2023 08:28:19 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 27
+[14-Aug-2023 08:28:19 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 27
+[14-Aug-2023 08:28:19 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 27
+[14-Aug-2023 08:29:21 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 33
+[14-Aug-2023 08:29:21 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 33
+[14-Aug-2023 08:29:21 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 33
+[14-Aug-2023 08:29:21 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 33
+[14-Aug-2023 08:29:21 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 33
+[14-Aug-2023 08:29:21 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 33
+[14-Aug-2023 08:29:21 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 33
+[14-Aug-2023 08:29:21 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 33
+[14-Aug-2023 08:33:31 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 30
+[14-Aug-2023 08:33:31 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 30
+[14-Aug-2023 08:33:31 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 30
+[14-Aug-2023 08:34:09 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 32
+[14-Aug-2023 08:34:09 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 32
+[14-Aug-2023 08:34:09 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 32
+[14-Aug-2023 08:39:32 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 24
+[14-Aug-2023 08:42:52 UTC] PHP Warning:  Attempt to read property "num_rows" on array in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\tours_plugin\tours_plugin.php on line 60
+[14-Aug-2023 08:42:52 UTC] 
+[14-Aug-2023 08:42:57 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 24
+[14-Aug-2023 08:48:52 UTC] PHP Warning:  Attempt to read property "num_rows" on array in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\plugins\tours_plugin\tours_plugin.php on line 60
+[14-Aug-2023 08:48:52 UTC] 
+[14-Aug-2023 08:48:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on string in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php:80
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#3 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\taxonomy-tour-category.php on line 80
+[14-Aug-2023 09:08:10 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php:25
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#3 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php on line 25
+[14-Aug-2023 09:09:07 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php:25
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#3 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php on line 25
+[14-Aug-2023 09:09:44 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php:25
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#3 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php on line 25
+[14-Aug-2023 09:10:20 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php on line 28
+[14-Aug-2023 09:10:20 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php on line 28
+[14-Aug-2023 09:10:20 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php on line 28
+[14-Aug-2023 09:10:20 UTC] PHP Warning:  Array to string conversion in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php on line 28
+[14-Aug-2023 09:13:12 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php:21
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#3 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php on line 21
+[14-Aug-2023 09:14:44 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php:21
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#3 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php on line 21
+[14-Aug-2023 09:14:46 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php:21
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#3 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php on line 21
+[14-Aug-2023 09:15:22 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php on line 20
+[14-Aug-2023 09:15:22 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php:21
+Stack trace:
+#0 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lifebookE\Local Sites\test-task\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lifebo...')
+#2 C:\Users\lifebookE\Local Sites\test-task\app\public\index.php(17): require('C:\\Users\\lifebo...')
+#3 {main}
+  thrown in C:\Users\lifebookE\Local Sites\test-task\app\public\wp-content\themes\twentytwentyone\single-tour.php on line 21
